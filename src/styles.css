@@ -45,7 +45,7 @@ header{
 }
 
 header > h1{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -80,9 +80,12 @@ nav>button{
 }
 
 h2{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
+    text-transform: uppercase;
 }
+
+/* HOME */
 
 .img1{
     width: 500px;
@@ -91,4 +94,37 @@ h2{
 .wrapper > figcaption{
     font-size: 0.8rem;
     margin-top: -0.4rem;
+}
+
+/* MENU */
+
+.menu-grid{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-auto-rows: 250px;
+    gap: 1rem;
+    margin: auto;
+}
+
+.menu-item{
+    background-color: var(--BG-COLOUR);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.menu-item>img{
+    align-self: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.menu-item>h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
