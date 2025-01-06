@@ -17,4 +17,49 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+:root{
+    --MAIN-COLOUR: #fafaf9;
+    --BG-COLOUR: #e5e7eb;
+    --ACCENT-1: #0ea5e9;
+    --ACCENT-2: #facc15;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--BG-COLOUR);
+}
+
+header{
+    height: 100px;
+    background-color: var(--ACCENT-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    gap: 1rem;
+}
+
+nav>button{
+    font: inherit;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
