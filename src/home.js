@@ -1,7 +1,7 @@
 import potatoPalaceImg from "./img/potato-palace.jpg";
 import petyrPotatoImg from "./img/petyr-potato.jpg";
 
-export default function homeGen(content){
+export default function(content){
     const wrapper = document.createElement("div");
     wrapper.classList.add("wrapper");
 
