@@ -68,6 +68,10 @@ nav>button{
     cursor: pointer;
 }
 
+.active{
+    color: var(--MAIN-COLOUR);
+}
+
 /* WRAPPER */
 
 .wrapper{
