@@ -1,4 +1,5 @@
-import homeGen from "./home.js"
+import homeGen from "./home.js";
+import menuGen from "./menu.js";
 import "./styles.css";
 
 const homeBtn = document.querySelector("#home");
@@ -21,6 +22,8 @@ homeBtn.addEventListener("click", ()  => {
 
 menuBtn.addEventListener("click", ()  => {
     console.log("MENU TEST")
+    clearPage();
+    menuGen(content);
 });
 
 contactBtn.addEventListener("click", ()  => {
