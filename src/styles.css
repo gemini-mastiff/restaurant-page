@@ -20,6 +20,11 @@ time, mark, audio, video {
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Roboto Flex';
+    src: url(font/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
+}
+
 :root{
     --MAIN-COLOUR: #fafaf9;
     --BG-COLOUR: #e5e7eb;
